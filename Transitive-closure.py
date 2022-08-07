@@ -111,5 +111,5 @@ if __name__ == "__main__":
               total_ordering, partial_ordering, universal_relation]
 
     G = Graphs(graphs=graphs)
-    G.draw_initial_graphs()
+    # G.draw_initial_graphs()
     G.draw_transitive_closure_graphs()
