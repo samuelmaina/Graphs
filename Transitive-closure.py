@@ -14,7 +14,7 @@ class Graphs:
             G = nx.DiGraph()
             G.add_edges_from(edges)
             pos = nx.spring_layout(G)
-            nx.draw_networkx_nodes(G, pos, node_size=500)
+            nx.draw_networkx_nodes(G, pos, node_size=450)
             nx.draw_networkx_edges(G, pos,
                                    edgelist=G.edges(data=True), edge_color='black')
             nx.draw_networkx_labels(G, pos)
@@ -47,7 +47,7 @@ class Graphs:
 
             pos = nx.spring_layout(G)
 
-            nx.draw_networkx_nodes(G, pos, node_size=500)
+            nx.draw_networkx_nodes(G, pos, node_size=450)
             nx.draw_networkx_edges(G, pos,
                                    edgelist=G.edges(data=True), edge_color='black', width=3)
             nx.draw_networkx_edges(G, pos,
