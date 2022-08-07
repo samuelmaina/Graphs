@@ -19,12 +19,12 @@ def draw_initial_graphs(graphs):
 
 
 # different types of graphs which will produce very different transtive closures.
-equivalence_relation = {"equivalnce_relation": [(1, 2),
-                                                (2, 3),
-                                                (3, 1),
-                                                (4, 5),
-                                                (5, 6),
-                                                (6, 4)]
+equivalence_relation = {"equivalence_relation": [(1, 2),
+                                                 (2, 3),
+                                                 (3, 1),
+                                                 (4, 5),
+                                                 (5, 6),
+                                                 (6, 4)]
                         }
 
 finer_equivalence = {"finer_equivalence": [(1, 2),
